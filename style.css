@@ -253,6 +253,9 @@ li{
         margin-right: 10px;
     }
 
+    .container1{
+        margin-top: 0;
+    }
     .container1 h1{
         font-size: 35px;
         margin-bottom: 20px;
@@ -263,7 +266,10 @@ li{
         margin-left: 0;
     }
     .container2 img{
-        width: 130%;
+        width: 100%;
+    }
+    .container2{
+        margin-bottom: 80px;
     }
 
     .container3{
@@ -280,6 +286,9 @@ li{
         height: 70vh;
     }
 
+    .footer h1{
+        font-size: 15px;
+    }
     .footer .itens img{
         width: 15%;
     }
