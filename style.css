@@ -7,12 +7,16 @@
 body, html{
     overflow-x: hidden;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 nav{
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,6 +44,7 @@ li{
     position: relative;
 }
 .nav-link::after{
+    color: #6900ff;
     content: " ";
     width: 0;
     height: 4px;
@@ -69,10 +74,10 @@ li{
 }
 
 .container1{
-    margin: 100px 150px;
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .container1 h1{
     font-size: 55px;
@@ -106,9 +111,10 @@ li{
 
 
 .container2{
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    margin: 50px 100px;
+    justify-content: space-around;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -282,10 +288,19 @@ li{
 @media(max-width: 376px){
     .container1 h1{
         font-size: 30px;
+        margin-top: 0;
     }
 
     .footer h1{
         font-size: 25px;
+    }
+    .container2 img{
+        width: 90%;
+    }
+    .container2{
+        height: 115vh;
+        justify-content: center;
+        margin-bottom: 30px;
     }
 }
 @media(max-width: 321px){
