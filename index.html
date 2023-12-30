@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>inicio</title>
 </head>
 
@@ -31,7 +32,7 @@
     </header>
 
     <div class="container1">
-        <div class="left">
+        <div class="left" data-aos="fade-up">
             <h1>Desenvolvedor de sites <br>
                 independentes</h1>
 
@@ -39,22 +40,22 @@
             <button class="bnt2">Contato ➔</button>
         </div>
 
-        <div class="right">
+        <div class="right" data-aos="fade-up">
             <img src="logo2.png" alt="">
         </div>
     </div>
 
     <div class="container2">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
             <img src="cs.png" alt="" width="550px">
         </div>
 
-        <div class="right">
+        <div class="right" data-aos="fade-left">
             <img src="mr.png" alt="" width="550px">
         </div>
     </div>
 
-    <div class="container3">
+    <div class="container3" data-aos="zoom-in">
         <div class="left">
             <h3>Sites otimizados</h3>
             <h1>Melhores para a suas vendas</h1>
@@ -80,11 +81,11 @@
 
         <div class="itens">
             <a href="https://wa.me/qr/LHLXIKKDUAUYE1" target="_blank" class="zap">
-                <img src="whatsapp.png" alt="" width="60px">
+                <img src="whatsapp.png" alt="" width="60px" data-aos="fade-right">
             </a>
 
             <a href="https://www.instagram.com/d4niel_g.g?igsh=ODA1NTc5OTg5Nw==" target="_blank" class="insta">
-                <img src="instagram.png" alt="" width="60px">
+                <img src="instagram.png" alt="" width="60px" >
             </a>
         </div>
     </div>
@@ -97,6 +98,13 @@
             nav.classList.toggle("active"));
 
     </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+      </script>
 </body>
 
 </html>

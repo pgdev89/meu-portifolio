@@ -10,6 +10,7 @@ body, html{
 header{
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 nav{
     display: flex;
@@ -34,9 +35,24 @@ li{
     color: #6e6e6e;
     font-weight:600;
     transition: 0.3s;
+    padding-bottom: 5px;
+
+    position: relative;
 }
-.nav-link:hover{
+.nav-link::after{
+    content: " ";
+    width: 0;
+    height: 4px;
+    background-color: #6900ff;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover::after{
     color: #6900ff;
+    width: 100%;
 }
 .hamburge{
     display: none;
