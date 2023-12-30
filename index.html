@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>inicio</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav">
+
+            <div class="logo"><img src="logo.png" alt=""></div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Portifólio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="hamburge">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="container1">
+        <div class="left">
+            <h1>Desenvolvedor de sites <br>
+                independentes</h1>
+
+            <button class="bnt1">Portifólio</button>
+            <button class="bnt2">Contato ➔</button>
+        </div>
+
+        <div class="right">
+            <img src="logo2.png" alt="">
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="left">
+            <img src="cs.png" alt="" width="550px">
+        </div>
+
+        <div class="right">
+            <img src="mr.png" alt="" width="550px">
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="left">
+            <h3>Sites otimizados</h3>
+            <h1>Melhores para a suas vendas</h1>
+            <h3>Desenvolvo sites que combinam design atraente e desempenho exemplar, <br>
+                garantindo uma presença online eficiente. Minha especialidade está na <br>
+                otimização para proporcionar uma experiência envolvente e ágil aos <br>
+                visitantes. Eleve o impacto da sua marca na web com plataformas que unem <br>
+                estética e eficácia.</h3>
+        </div>
+
+        <div class="right">
+            <h1>Sites Rápidos</h1>
+            <h3>Crio sites velozes e eficientes, priorizando a rapidez na entrega de conteúdo. <br>
+                Minha abordagem visa proporcionar uma experiência de navegação ágil, <br>
+                garantindo que seus visitantes tenham acesso rápido e suave ao conteúdo. <br>
+                Transforme sua presença online com plataformas que destacam-se pela <br>
+                velocidade e eficiência.</h3>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1> <a href="#">Envie uma mensagem em:</a></h1>
+
+        <div class="itens">
+            <a href="https://wa.me/qr/LHLXIKKDUAUYE1" target="_blank" class="zap">
+                <img src="whatsapp.png" alt="" width="60px">
+            </a>
+
+            <a href="https://www.instagram.com/d4niel_g.g?igsh=ODA1NTc5OTg5Nw==" target="_blank" class="insta">
+                <img src="instagram.png" alt="" width="60px">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector(".hamburge");
+        const nav = document.querySelector(".nav");
+
+        hamburger.addEventListener("click", () =>
+            nav.classList.toggle("active"));
+
+    </script>
+</body>
+
+</html>
