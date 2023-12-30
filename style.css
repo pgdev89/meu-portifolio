@@ -255,6 +255,7 @@ li{
 
     .container1{
         margin-top: 0;
+        height: 90vh;
     }
     .container1 h1{
         font-size: 35px;
@@ -298,6 +299,10 @@ li{
     .container1 h1{
         font-size: 30px;
         margin-top: 0;
+    }
+    .container1{
+        height: 90vh;
+        margin-bottom: 0;
     }
 
     .footer h1{
