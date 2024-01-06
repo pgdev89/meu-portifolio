@@ -95,6 +95,10 @@ li{
     margin-right: 20px;
     transition: 0.5s;
 }
+.bnt1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .bnt1:hover{
     background-color: #b391da;
 }
@@ -104,6 +108,10 @@ li{
     font-weight: bold;
     font-size: large;
     cursor: pointer;
+}
+.bnt2 a{
+    color: black;
+    text-decoration: none;
 }
 .container1 .right img{
     cursor: pointer;
@@ -326,31 +334,32 @@ li{
     }
 }
 
-.footer{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 70px 0;
-}
-.footer h1{
-    margin-bottom: 50px;
-}
-.footer h1 a{
-    text-decoration: none;
-    color: #000;
-    background-color: #b391da;
-    padding: 10px;
-    border-radius: 5px;
-}
-.footer .itens{
-    align-items: center;
-}
-.footer .itens a{
-    padding: 20px 20px;
-    transition: 0.3s;
-    position: relative;
-}
 
-.itens a:hover{
-    bottom: 5px;
+
+.footer{
+    border-top: 50px solid #3d2d50;
+    background-color: #24222f;
+    height: 200px;
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+i{
+    color: aliceblue;
+    font-size: xx-large;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.nav-foot{
+    display: flex;
+}
+.nav-foot a{
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    margin: 0px 20px;
 }

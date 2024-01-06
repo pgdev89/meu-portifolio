@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>inicio</title>
 </head>
@@ -36,18 +37,18 @@
             <h1>Desenvolvedor de sites <br>
                 independentes</h1>
 
-            <button class="bnt1">Portifólio</button>
-            <button class="bnt2">Contato ➔</button>
+            <button class="bnt1"><a href="#portifolio">Portifólio</a></button>
+            <button class="bnt2"><a href="#contat">Contato ➔</a></button>
         </div>
 
         <div class="right" data-aos="fade-up">
-            <img src="logo2.png" alt="" >
+            <img src="logo2.png" alt="">
         </div>
     </section>
 
     <div class="container2" id="portifolio">
         <div class="left" data-aos="fade-right">
-            <img src="cs.png" alt="" width="550px" >
+            <img src="cs.png" alt="" width="550px">
         </div>
 
         <div class="right" data-aos="fade-left">
@@ -55,8 +56,8 @@
         </div>
     </div>
 
-    <div class="container3" data-aos="zoom-in">
-        <div class="left">
+    <div class="container3">
+        <div class="left" data-aos="fade-right">
             <h3>Sites otimizados</h3>
             <h1>Melhores para a suas vendas</h1>
             <h3>Desenvolvo sites que combinam design atraente e desempenho exemplar, <br>
@@ -66,7 +67,7 @@
                 estética e eficácia.</h3>
         </div>
 
-        <div class="right">
+        <div class="right" data-aos="fade-left">
             <h1>Sites Rápidos</h1>
             <h3>Crio sites velozes e eficientes, priorizando a rapidez na entrega de conteúdo. <br>
                 Minha abordagem visa proporcionar uma experiência de navegação ágil, <br>
@@ -77,17 +78,18 @@
     </div>
 
     <div class="footer" id="contat">
-        <h1> <a href="#">Envie uma mensagem em:</a></h1>
-
-        <div class="itens">
-            <a href="https://wa.me/qr/LHLXIKKDUAUYE1" target="_blank" class="zap">
-                <img src="whatsapp.png" alt="" width="60px" data-aos="fade-right">
-            </a>
-
-            <a href="https://www.instagram.com/d4niel_g.g?igsh=ODA1NTc5OTg5Nw==" target="_blank" class="insta">
-                <img src="instagram.png" alt="" width="60px" data-aos="fade-left">
-            </a>
+        <div class="icons">
+            <a href="https://www.instagram.com/desenvolvedor___web?igsh=MWVueGtkYjVpNWtodw==" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@desenvolvedor__web?_t=8ioVZj8LbGP&_r=1" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://wa.me/qr/LHLXIKKDUAUYE1" target="_blank"><i class='bx bxl-whatsapp'></i></a>
         </div>
+
+        <ul class="nav-foot">
+            <li><a href="#home">Sobre mim</a></li>
+            <li><a href="#portifolio">Portifólio</a></li>
+            <li><a href="#contat">Contato</a></li>
+        </ul>
+
     </div>
 
     <script>
@@ -104,7 +106,7 @@
         AOS.init({
             duration: 1000,
         });
-      </script>
+    </script>
 </body>
 
 </html>
